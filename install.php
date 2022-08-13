@@ -13,7 +13,7 @@ if (!$installed && !empty($_POST['user'])) {
 ?><!doctype html>
 <html>
 <head>
-	<title>Install MCHostPanel</title>
+	<title>Install ACHOST</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
@@ -24,10 +24,10 @@ if (!$installed && !empty($_POST['user'])) {
 <?php if ($installed) { ?>
 	<div class="modal">
 		<div class="modal-header">
-			<h3>Install MCHostPanel</h3>
+			<h3>Install ACHOSTA</h3>
 		</div>
 		<div class="modal-body">
-			<p>MCHostPanel has already been installed.</p>
+			<p>ACHOST has already been installed.</p>
 
 			<p class="alert alert-info">If you are sure it is not installed, delete the <code>.installed</code> file and refresh this page.</p>
 		</div>
@@ -38,10 +38,10 @@ if (!$installed && !empty($_POST['user'])) {
 <?php } elseif (!empty($_POST['user'])) { ?>
 	<div class="modal">
 		<div class="modal-header">
-			<h3>Install MCHostPanel</h3>
+			<h3>Install ACHOST</h3>
 		</div>
 		<div class="modal-body">
-			<p>MCHostPanel has been installed, and you are now logged in.</p>
+			<p>ACHOST has been installed, and you are now logged in.</p>
 		</div>
 		<div class="modal-footer">
 			<a class="btn btn-success" href="dashboard.php">Continue to Panel</a>
@@ -50,7 +50,7 @@ if (!$installed && !empty($_POST['user'])) {
 <?php } else { ?>
 	<form class="modal form-horizontal" action="install.php" method="post">
 		<div class="modal-header">
-			<h3>Install MCHostPanel</h3>
+			<h3>Install ACHOST</h3>
 		</div>
 		<div class="modal-body">
 			<legend>Administrator User</legend>
