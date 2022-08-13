@@ -21,7 +21,7 @@ if (!empty($_SESSION['user']) && $user = user_info($_SESSION['user'])) {
 ?><!doctype html>
 <html>
 <head>
-	<title>MCHostPanel</title>
+	<title>ACHOST</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
@@ -38,11 +38,11 @@ if (!empty($_SESSION['user']) && $user = user_info($_SESSION['user'])) {
 </head>
 <body>
 <noscript>
-	<p class="alert alert-warning"><strong>Enable Javascript:</strong> Javascript is required to use MCHostPanel.</p>
+	<p class="alert alert-warning"><strong>Enable Javascript:</strong> Javascript is required to use ACHOST.</p>
 </noscript>
 <form class="modal form-horizontal" action="dashboard.php" method="post">
 	<div class="modal-header">
-		<h3>MCHostPanel</h3>
+		<h3>ACHOST</h3>
 	</div>
 	<div class="modal-body">
 		<?php
